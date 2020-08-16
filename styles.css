@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #201b17, #8e0f01);
+}
+
+.page {
+  /* width: 50%; */
+  max-width: 350px;
+  margin: 50px auto;
+  margin-top: 90px;
+  background-color: white;
+  position: relative;
+  min-height: 75vh;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.page header {
+  text-align: center;
+  background-color: #1f030c;
+  color: white;
+  padding: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  text-transform: uppercase;
+}
+
+.page h4 {
+  padding: 20px;
+}
+.amount-input {
+  padding: 0px 20px;
+}
+
+#amount {
+  border: 2px solid black;
+  height: 30px;
+  width: 200px;
+}
+
+.service-input {
+  padding-left: 40px;
+}
+
+#service {
+  padding-left: 30px;
+  height: 60px;
+  width: 300px;
+  font-size: 1.5em;
+}
+
+.people-input {
+  padding-left: 30px;
+}
+
+#people {
+  border: 2px solid black;
+  height: 30px;
+  width: 200px;
+}
+
+.cal-button {
+  display: block;
+  text-align: center;
+}
+
+#calculate {
+  /* margin-left: 85px; */
+  padding: 10px;
+  width: 175px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: #ad133a;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+#calculate:hover {
+  background-color: #3c1912;
+}
+
+#tip-amount {
+  display: block;
+  text-align: center;
+}
+
+#tip-amount h3 {
+  font-weight: bold;
+}
